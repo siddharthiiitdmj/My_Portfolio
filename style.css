@@ -95,7 +95,7 @@
 
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("contents/banner.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -260,6 +260,20 @@ section{
 }
 .services .services-content .card .box{
     transition: 0.3s ease;
+}
+.ui li{
+    text-align: center;
+    list-style-type: none;
+}
+.ui li a{
+    color: crimson;
+    transition: 0.3s ease;
+}
+.ui li a:hover{
+    text-decoration: underline;
+}
+.services .services-content .card:hover .ui li a{
+    color: white;
 }
 .services .services-content .card:hover .box{
     transform: scale(1.05);
